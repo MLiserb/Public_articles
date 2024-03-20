@@ -1,6 +1,6 @@
 Here is the conversation Ethical considerations:
 
-[Rohan] Hey Sapna! I wanted to chat with you about the recent campaign we're running. 
+**[Rohan]** Hey Sapna! I wanted to chat with you about the recent campaign we're running. 
 I noticed we're using some data-driven personalization techniques. 
 Honestly, I'm concerned about the ethical implications related to data privacy.
 
