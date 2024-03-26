@@ -1,9 +1,12 @@
 # Far Easter Group
-- [www.feg.com.tw](https://www.feg.com.tw/en/home/index.aspx)
-- []()
-- []()
 
 Established in 1949, Far Eastern Group is one of Taiwan’s largest and most diversified conglomerates, with ten major business divisions and 247 companies worldwide. For seven decades, Far Eastern has grown alongside society, making lives better and futures more secure. We dedicate our work to a comfortable and sustainable way of living.
+
+#### Link
+
+- [www.feg.com.tw](https://www.feg.com.tw/en/home/index.aspx)
+- [linkedin](https://tw.linkedin.com/company/far-eastern-group)
+- [magazine.feg.com.tw](https://magazine.feg.com.tw/magazine/tw/index.aspx)
 
 ## DRIVE Catalyst, the venture capital arm of the Far Eastern Group
 
@@ -17,7 +20,25 @@ Drive Catalyst is the corporate venture capital arm of the Far Eastern Group (FE
 
 - US$5 million in Ambercycle to support the construction of the circular polyester startup's commercial-scale facility to scale up textile-to-textile regeneration in the apparel industry.
 
-- xxx 
+- xxx
+
+
+| Announced Date | Organization Name       | Lead Investor | Funding Round      | Money Raised |
+|-|-|-|-|-|
+| Nov 14, 2023| Element Energy | Yes | Series B - Element Energy Logo | $73M|
+| Nov 2, 2023| Ambercycle | Yes | Venture Round - Ambercycle Logo| $5M|
+| Nov 14, 2022| Citrine Informatics | — | Series C - Citrine Informatics Logo| $16M|  
+| Oct 4, 2022| Multiscale Technologies | No | Seed Round - Multiscale Technologies| $7.4M|
+| Apr 8, 2022| Novoloop | No | Series A - Novoloop| $10M|
+| Mar 11, 2022| AiFi | — | Series B - AiFi| $65M|
+| Dec 8, 2021| pickupp | — | Series B - pickupp| $37M|
+| Nov 8, 2021| Landing AI | — | Series A - Landing AI| $57M|
+| Jul 5, 2021| pickupp | — | Series A - pickupp| $15M| 
+| Jan 1, 2020| Secure AI Labs | — | Pre Seed Round - Secure AI Labs| $3.4M|
+
+
+
+
 
 
 ## Drive 
