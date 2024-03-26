@@ -22,7 +22,7 @@ Design Innovation lives in the intersections of Human, Business, and Technology.
 * [Prototype](https://www.youtube.com/watch?v=l__uz1B2Pl8)
 * [Implement](https://www.youtube.com/watch?v=9Sl-QPFVZ00)
 
-<li href="[https://github.com/](https://www.youtube.com/watch?v=9Sl-QPFVZ00)" target="_blank" rel="noopener">Implement</li>
+<li href="https://www.youtube.com/watch?v=9Sl-QPFVZ00" target="_blank" rel="noopener">Implement</li>
 
 #### VALUES
 
