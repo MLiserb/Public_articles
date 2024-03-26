@@ -1,12 +1,15 @@
 # Far Easter Group
+- [www.feg.com.tw](https://www.feg.com.tw/en/home/index.aspx)
+- []()
+- []()
 
 Established in 1949, Far Eastern Group is one of Taiwan’s largest and most diversified conglomerates, with ten major business divisions and 247 companies worldwide. For seven decades, Far Eastern has grown alongside society, making lives better and futures more secure. We dedicate our work to a comfortable and sustainable way of living.
 
 ## DRIVE Catalyst, the venture capital arm of the Far Eastern Group
 
 #### Link
-- [](https://www.drivecatalyst.com/)
-- [](https://www.linkedin.com/company/drivecatalyst/)
+- [www.drivecatalyst.com](https://www.drivecatalyst.com/)
+- [linkedin](https://www.linkedin.com/company/drivecatalyst/)
 
 #### Last Investment:
 
@@ -16,7 +19,9 @@ Established in 1949, Far Eastern Group is one of Taiwan’s largest and most div
 
 
 ## Drive 
-- [](https://www.drive-feg.com/en/)
+- [drive-feg.com / EN ](https://www.drive-feg.com/en/)
+- [drive-feg.com / ZH ](https://www.drive-feg.com/zh/)
+- [linkedin]()
 
 Design Innovation lives in the intersections of Human, Business, and Technology. It unites the insights of various fields, explores new opportunities, and inspires cutting-edge solutions.
 
