@@ -18,9 +18,11 @@ https://www.drive-feg.com/en/
 Design Innovation lives in the intersections of Human, Business, and Technology. It unites the insights of various fields, explores new opportunities, and inspires cutting-edge solutions.
 
 * [Understand](https://www.youtube.com/watch?v=EOZHcaz3Mbg)
-<br>* [Ideate](https://www.youtube.com/watch?v=2jA9WMPSpFo)
-<br>* [Prototype](https://www.youtube.com/watch?v=l__uz1B2Pl8)
-<br>* [Implement](https://www.youtube.com/watch?v=9Sl-QPFVZ00)
+* [Ideate](https://www.youtube.com/watch?v=2jA9WMPSpFo)
+* [Prototype](https://www.youtube.com/watch?v=l__uz1B2Pl8)
+* [Implement](https://www.youtube.com/watch?v=9Sl-QPFVZ00)
+
+<li href="[https://github.com/](https://www.youtube.com/watch?v=9Sl-QPFVZ00)" target="_blank" rel="noopener">Implement</li>
 
 #### VALUES
 
