@@ -21,24 +21,27 @@ Drive Catalyst is the corporate venture capital arm of the Far Eastern Group (FE
 
 
 ## Drive 
+
+**DRIVE (Design, Research, Innovation, Vision, Engine)**
+<br>is an innovation, strategy and marketing consulting services team within the **Far Eastern Group** (FEG). We are passionate about the application of the _"design thinking process"_ to solve complex business problems and locate new opportunities to grow. Our mission is to create environments, cultures and organizations where leading edge creativity helps to redefine the competitiveness of the business we touch. Our end-state is to navigate with our partners in the developing breakthrough innovations that will help redefine the markets and industries around us.
+
+DRIVE offers design, creative, and technology services to help FEG stay current and innovate breakthrough products, services, solutions and experiences.
+
+#### Link
 - [drive-feg.com / EN ](https://www.drive-feg.com/en/)
 - [drive-feg.com / ZH ](https://www.drive-feg.com/zh/)
 - [linkedin](https://www.linkedin.com/company/fegdrive/)
 
-DRIVE (Design, Research, Innovation, Vision, Engine)
-<br>is an innovation, strategy and marketing consulting services team within the Far Eastern Group (FEG). We are passionate about the application of the "design thinking process" to solve complex business problems and locate new opportunities to grow. Our mission is to create environments, cultures and organizations where leading edge creativity helps to redefine the competitiveness of the business we touch. Our end-state is to navigate with our partners in the developing breakthrough innovations that will help redefine the markets and industries around us.
-
-DRIVE offers design, creative, and technology services to help FEG stay current and innovate breakthrough products, services, solutions and experiences.
-
-
+---
 Design Innovation lives in the intersections of Human, Business, and Technology. It unites the insights of various fields, explores new opportunities, and inspires cutting-edge solutions.
+
+[DRIVE - Make Change Positive](https://www.youtube.com/watch?v=yjfDnWMYh-g)
 
 * [Understand](https://www.youtube.com/watch?v=EOZHcaz3Mbg)
 * [Ideate](https://www.youtube.com/watch?v=2jA9WMPSpFo)
 * [Prototype](https://www.youtube.com/watch?v=l__uz1B2Pl8)
 * [Implement](https://www.youtube.com/watch?v=9Sl-QPFVZ00)
 
-[DRIVE - Make Change Positive](https://www.youtube.com/watch?v=yjfDnWMYh-g)
 
 
 #### VALUES
