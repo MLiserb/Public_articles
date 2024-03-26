@@ -7,6 +7,8 @@ Established in 1949, Far Eastern Group is one of Taiwan’s largest and most div
 
 ## DRIVE Catalyst, the venture capital arm of the Far Eastern Group
 
+Drive Catalyst is the corporate venture capital arm of the Far Eastern Group (FEG), one of the largest and most diversified conglomerates in Taiwan. Backed by FEG and inspired by the group's many sustainable initiatives and commitments to the circular economy, Drive Catalyst seeks to invest in disruptive technologies in the fields of precision, environment, and efficiency and draw on their network to support innovative founders who can make a difference in the world.
+
 #### Link
 - [www.drivecatalyst.com](https://www.drivecatalyst.com/)
 - [linkedin](https://www.linkedin.com/company/drivecatalyst/)
@@ -21,7 +23,13 @@ Established in 1949, Far Eastern Group is one of Taiwan’s largest and most div
 ## Drive 
 - [drive-feg.com / EN ](https://www.drive-feg.com/en/)
 - [drive-feg.com / ZH ](https://www.drive-feg.com/zh/)
-- [linkedin]()
+- [linkedin](https://www.linkedin.com/company/fegdrive/)
+
+DRIVE (Design, Research, Innovation, Vision, Engine)
+<br>is an innovation, strategy and marketing consulting services team within the Far Eastern Group (FEG). We are passionate about the application of the "design thinking process" to solve complex business problems and locate new opportunities to grow. Our mission is to create environments, cultures and organizations where leading edge creativity helps to redefine the competitiveness of the business we touch. Our end-state is to navigate with our partners in the developing breakthrough innovations that will help redefine the markets and industries around us.
+
+DRIVE offers design, creative, and technology services to help FEG stay current and innovate breakthrough products, services, solutions and experiences.
+
 
 Design Innovation lives in the intersections of Human, Business, and Technology. It unites the insights of various fields, explores new opportunities, and inspires cutting-edge solutions.
 
@@ -40,4 +48,23 @@ Design Innovation lives in the intersections of Human, Business, and Technology.
 * Looking for solutions ahead of fear.
 * Doing the right thing despite obstacles.
 * Killing complacency.
+
+#### DRIVE SPIRIT
+
+**Design**
+<br>We see good Design as the intersection of form and function which creates value for your future.
+
+**Research**
+<br>We use Research to gain empathy and develop insight that can transform your business.
+
+**Innovation**
+<br>We believe Innovation is critical for sustainability.
+
+**Vision**
+<br>We develop Visions that navigate you to the destination.
+
+**Engine**
+<br>We ignite the Engine that realizes your dreams.
+
+
 
