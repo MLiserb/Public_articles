@@ -42,6 +42,17 @@ Drive Catalyst is the corporate venture capital arm of the Far Eastern Group (FE
 | Mar 11, 2022| AiFi| Women Founded, Women Led| Series B| $65M|  
 | Jan 1, 2020| Secure AI Labs| Women Founded| Pre Seed Round| $3.4M|
 
+#### People
+
+**Managing Director**
+<br>[Juliana Hsu](https://www.linkedin.com/in/pidner/)
+
+**Director**
+<br>[Lucas Wang](https://www.linkedin.com/in/lucas-wang-bd/)
+
+**Head of Fund Finance & Operations**
+<br>[Ding L.](https://www.linkedin.com/in/dingweilaw/)
+
 ## Drive 
 
 **DRIVE (Design, Research, Innovation, Vision, Engine)**
@@ -64,8 +75,6 @@ Design Innovation lives in the intersections of Human, Business, and Technology.
 * [Ideate](https://www.youtube.com/watch?v=2jA9WMPSpFo)
 * [Prototype](https://www.youtube.com/watch?v=l__uz1B2Pl8)
 * [Implement](https://www.youtube.com/watch?v=9Sl-QPFVZ00)
-
-
 
 #### VALUES
 
@@ -92,5 +101,21 @@ Design Innovation lives in the intersections of Human, Business, and Technology.
 **Engine**
 <br>We ignite the Engine that realizes your dreams.
 
+#### People
+
+**Director, Chief Innovation Officer - DRIVE Strategy Group**
+<br>[Jeff Hsu](https://www.linkedin.com/in/jeff-h-23752115/)
+<br>[Bloomberg Interview](https://www.youtube.com/watch?v=hulOxUOl7n4)
+
+**Senior Technology Manager, Innovation Strategy Group**
+<br>[Jack Lu](https://www.linkedin.com/in/jack-lu-153360a/)
+
+**Senior Design Strategist**
+<br>[Nigel Antony](https://www.linkedin.com/in/nigelantony/)
+
+**Design Strategist**
+<br>[Ash Lin](https://www.linkedin.com/in/ash-lin-2878b584/) <- Person to contact for Job opportunities: Junior Quantitative Researcher/Market Researcher
+
+<br>[Yi-Chih Fiona Lin](https://www.linkedin.com/in/yi-chih-fiona-lin-20814a17/)
 
 
