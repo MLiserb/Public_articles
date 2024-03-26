@@ -20,8 +20,6 @@ Drive Catalyst is the corporate venture capital arm of the Far Eastern Group (FE
 
 - US$5 million in Ambercycle to support the construction of the circular polyester startup's commercial-scale facility to scale up textile-to-textile regeneration in the apparel industry.
 
-- xxx
-
 
 | Announced Date | Organization Name       | Lead Investor | Funding Round      | Money Raised |
 |-|-|-|-|-|
