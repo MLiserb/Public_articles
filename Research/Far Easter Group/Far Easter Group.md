@@ -13,13 +13,13 @@ Established in 1949, Far Eastern Group is one of Taiwan’s largest and most div
 Drive Catalyst is the corporate venture capital arm of the Far Eastern Group (FEG), one of the largest and most diversified conglomerates in Taiwan. Backed by FEG and inspired by the group's many sustainable initiatives and commitments to the circular economy, Drive Catalyst seeks to invest in disruptive technologies in the fields of precision, environment, and efficiency and draw on their network to support innovative founders who can make a difference in the world.
 
 #### Link
+
 - [www.drivecatalyst.com](https://www.drivecatalyst.com/)
 - [linkedin](https://www.linkedin.com/company/drivecatalyst/)
 
-#### Last Investment:
+#### Last Investment
 
 - US$5 million in Ambercycle to support the construction of the circular polyester startup's commercial-scale facility to scale up textile-to-textile regeneration in the apparel industry.
-
 
 | Announced Date | Organization Name       | Lead Investor | Funding Round      | Money Raised |
 |-|-|-|-|-|
@@ -34,10 +34,13 @@ Drive Catalyst is the corporate venture capital arm of the Far Eastern Group (FE
 | Jul 5, 2021| pickupp | — | Series A - pickupp| $15M| 
 | Jan 1, 2020| Secure AI Labs | — | Pre Seed Round - Secure AI Labs| $3.4M|
 
+#### Diversity Investments
 
-
-
-
+| Announced Date | Organization Name | Diversity Spotlight (US Headquarters Only) | Funding Round | Money Raised |
+|-|-|-|-|-|
+| Apr 8, 2022| Novoloop| Women Founded, Women Led| Series A| $10M|
+| Mar 11, 2022| AiFi| Women Founded, Women Led| Series B| $65M|  
+| Jan 1, 2020| Secure AI Labs| Women Founded| Pre Seed Round| $3.4M|
 
 ## Drive 
 
@@ -47,6 +50,7 @@ Drive Catalyst is the corporate venture capital arm of the Far Eastern Group (FE
 DRIVE offers design, creative, and technology services to help FEG stay current and innovate breakthrough products, services, solutions and experiences.
 
 #### Link
+
 - [drive-feg.com / EN ](https://www.drive-feg.com/en/)
 - [drive-feg.com / ZH ](https://www.drive-feg.com/zh/)
 - [linkedin](https://www.linkedin.com/company/fegdrive/)
