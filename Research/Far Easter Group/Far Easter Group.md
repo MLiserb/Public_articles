@@ -22,4 +22,11 @@ Design Innovation lives in the intersections of Human, Business, and Technology.
 <br>[Prototype](https://www.youtube.com/watch?v=l__uz1B2Pl8)
 <br>[Implement](https://www.youtube.com/watch?v=9Sl-QPFVZ00)
 
+#### VALUES
+
+* Replacing the pain of change with the pleasure of innovation.
+* Aligning teams to focus on a real problem.
+* Looking for solutions ahead of fear.
+* Doing the right thing despite obstacles.
+* Killing complacency.
 
