@@ -42,3 +42,38 @@ Despite its promising applications, blockchain in supply chain management faces 
 
 Blockchain technology is set to revolutionize supply chain management by enhancing transparency, ensuring product integrity, reducing costs, and streamlining operations. As industries continue to explore and embrace blockchain's possibilities, supply chains worldwide will become more resilient and responsive to the demands of the modern market. The journey of integrating blockchain into supply chain processes is just beginning, and its full potential is yet to be realized, promising a more transparent, efficient, and trustworthy global trade ecosystem.  
 
+
+Source:
+<br>https://www.supplychainbrain.com/blogs/1-think-tank/post/32469-do-or-die-scrapping-obsolete-supply-chain-management-practices
+<br>https://mahanakornpartners.com/blockchain-solutions-for-supply-chain-sustainability/
+<br>https://101blockchains.com/blockchain-in-supply-chain/
+<br>https://www.pinterest.com/pin/642114859348453112/
+<br>https://www.gep.com/blockchain-procurement-supply-chain
+
+Notes:
+
+To find images that can be associated with each section of your outline on "The Role of Blockchain in Supply Chain Management," you can consider the following suggestions:
+
+### Understanding Blockchain Technology
+- Image: An illustration showing how blockchain works with blocks linked together in a chain, representing the decentralized and secure nature of the technology.
+
+### Enhancing Transparency and Traceability
+- Image: Visual representation of a transparent supply chain network with interconnected nodes, showcasing how blockchain enables real-time tracking and visibility.
+
+### Ensuring Integrity and Trust
+- Image: A graphic depicting a digital fingerprint or seal to symbolize the immutability and trustworthiness of data stored on a blockchain.
+
+### Reducing Costs and Increasing Efficiency
+- Image: Illustration showing cost-saving mechanisms like automated smart contracts and streamlined processes enabled by blockchain technology in supply chain management.
+
+### Case Studies and Real-world Applications
+- Image: Collage of logos or visuals representing successful blockchain implementations in supply chains, such as companies like Walmart or Maersk, to showcase real-world applications.
+
+### Challenges and Future Directions
+- Image: Infographic illustrating potential challenges like scalability, interoperability, and regulatory issues faced by blockchain in supply chain management, along with arrows pointing towards future advancements.
+
+### Conclusion
+- Image: A summary image combining key elements from each section to visually represent the overall impact and potential of blockchain in revolutionizing supply chain management.
+
+These images can help enhance the visual appeal and understanding of your presentation or document on the role of blockchain in supply chain management.
+
