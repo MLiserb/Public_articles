@@ -20,8 +20,8 @@ The concept of Ikigai acknowledges that one's career path is not static but evol
 In conclusion, the journey towards discovering Ikigai as a Data Specialist involves a deep exploration of personal passions, professional skills, societal needs, and collaborative opportunities. By embracing this holistic approach to career planning, individuals like Franco Patano and Janine Rix can find purpose, satisfaction, and meaning in their work while making valuable contributions to the world around them.
 
 Citations:
-[1] https://www.linkedin.com/pulse/finding-ikigai-reason-being-franco-patano
-[2] https://www.linkedin.com/pulse/career-planning-using-ikigai-strategy-janine-rix
-[3] https://www.cnbc.com/2023/07/04/longevity-experts-the-japanese-secret-for-a-long-and-happy-life.html
-[4] https://www.wholegraindigital.com/blog/ikigai-finding-purpose-at-work/
-[5] https://www.sloww.co/ikigai-example/
+<br>[1] https://www.linkedin.com/pulse/finding-ikigai-reason-being-franco-patano
+<br>[2] https://www.linkedin.com/pulse/career-planning-using-ikigai-strategy-janine-rix
+<br>[3] https://www.cnbc.com/2023/07/04/longevity-experts-the-japanese-secret-for-a-long-and-happy-life.html
+<br>[4] https://www.wholegraindigital.com/blog/ikigai-finding-purpose-at-work/
+<br>[5] https://www.sloww.co/ikigai-example/
