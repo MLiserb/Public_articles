@@ -1,5 +1,8 @@
-# This Week #17
-**MAY 06, 2024**
+![Irismetrics](https://github.com/MLiserb/Public_articles/assets/144083324/aa3d3523-0f61-45b8-9872-06899396fff7)
+
+# This Week #18
+**APR 29, 2024 – MAY 5, 2024**
+<br>**Published: MAY 06, 2024**
 
 - [Florida Bans Lab-Grown Meat, Adding to Similar Efforts in Three Other States](https://www.nbcnews.com/science/science-news/florida-bans-lab-grown-meat-adding-similar-efforts-four-states-rcna150386) (NBC News)
     
@@ -12,3 +15,4 @@
 - [Voyager 1’s Communication Malfunctions May Show the Spacecraft’s Age](https://www.discovermagazine.com/the-sciences/voyager-1s-communication-malfunctions-may-show-the-spacecrafts-age) (Discover)
     
 - [Buffett Says US Corporate Taxes Likely to Rise to Tame Deficit](https://www.bloomberg.com/news/articles/2024-05-04/buffett-says-us-corporate-taxes-likely-to-rise-to-tame-deficit?srnd=homepage-americas) (Bloomberg)
+
