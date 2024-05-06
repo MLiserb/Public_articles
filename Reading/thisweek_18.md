@@ -1,6 +1,6 @@
-![Irismetrics](https://github.com/MLiserb/Public_articles/assets/144083324/66921037-4b11-4dbd-857a-cb8db81741b7)
-
+![](https://github.com/MLiserb/Public_articles/assets/144083324/1e7d1e97-2c2d-4930-9b54-f5cd96389ac9)
 # This Week #18
+
 **APR 29, 2024 – MAY 5, 2024**
 <br>**Published: MAY 06, 2024**
 
@@ -16,3 +16,4 @@
     
 - [Buffett Says US Corporate Taxes Likely to Rise to Tame Deficit](https://www.bloomberg.com/news/articles/2024-05-04/buffett-says-us-corporate-taxes-likely-to-rise-to-tame-deficit?srnd=homepage-americas) (Bloomberg)
 
+![Irismetrics](https://github.com/MLiserb/Public_articles/assets/144083324/66921037-4b11-4dbd-857a-cb8db81741b7)
