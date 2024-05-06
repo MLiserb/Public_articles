@@ -16,5 +16,3 @@
 - [Voyager 1’s Communication Malfunctions May Show the Spacecraft’s Age](https://www.discovermagazine.com/the-sciences/voyager-1s-communication-malfunctions-may-show-the-spacecrafts-age) (Discover)
     
 - [Buffett Says US Corporate Taxes Likely to Rise to Tame Deficit](https://www.bloomberg.com/news/articles/2024-05-04/buffett-says-us-corporate-taxes-likely-to-rise-to-tame-deficit?srnd=homepage-americas) (Bloomberg)
-
-![Irismetrics](https://github.com/MLiserb/Public_articles/assets/144083324/66921037-4b11-4dbd-857a-cb8db81741b7)
