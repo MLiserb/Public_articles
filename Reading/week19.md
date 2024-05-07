@@ -2,5 +2,5 @@
 
 # This Week #19
 
-**MAY XX, 2024 – MAY XX, 2024**
-<br>**Published: MAY XX, 2024**
+**MAY 08, 2024 – MAY 14, 2024**
+<br>**Published: MAY xx, 2024**
