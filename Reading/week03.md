@@ -2,6 +2,6 @@
 
 # This Week #03
 
-**JAN XX, 2024 – JAN XX, 2024**
-<br>**Published: JAN XX, 2024**
+**JAN 16, 2024 – JAN 22, 2024**
+<br>**Published: JAN 22, 2024**
 
