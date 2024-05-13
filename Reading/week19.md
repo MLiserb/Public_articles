@@ -3,7 +3,7 @@
 # This Week #19
 
 **MAY 08, 2024 – MAY 14, 2024**
-<br>**Published: MAY xx, 2024**
+<br>**Published: MAY 13, 2024**
 
 - [Jim Simons: A Short Story of My Life and Mathematics](https://youtu.be/CTQcLi6SpX8?si=J5H9ipwii_32Do2B) (The Abel Prize)
     
