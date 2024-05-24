@@ -1,6 +1,7 @@
 Articles + Ressources related to MEV
 
-Backcup save of some Medium article in case of beeing deleted (already happened)
+Backup save of some Medium article in case of beeing deleted by author or the platform...
+<br>(already happened)
 
 Links:
 <br>[@solidquant](https://medium.com/@solidquant)
