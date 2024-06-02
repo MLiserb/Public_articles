@@ -1,6 +1,8 @@
 
 ```
-for i in $(seq 1 5) # This will generate and search for 5 random string
+# This will generate and search for 5 random string
+
+for i in $(seq 1 5) 
 do
     DIGITS=$((10 + RANDOM % 10))
     RANDOM_STRING=$(openssl rand -hex $DIGITS)
