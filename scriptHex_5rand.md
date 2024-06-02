@@ -1,5 +1,5 @@
 
-```
+```sript
 # This will generate and search for 5 random string
 
 for i in $(seq 1 5) 
