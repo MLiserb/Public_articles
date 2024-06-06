@@ -24,7 +24,7 @@ aapl_data = yf.download('AAPL', start='2020-01-01', end='2024-05-01') # until 20
 # Display the first few rows of the dataframe
 aapl_data.head()
 ```
-```
+
 | Open | High | Low | Close | Adj Close | Volume |
 |-|-|-|-|-|-|-|
 | 2020-01-02 | 74.059998 | 75.150002 | 73.797501 | 75.087502 | 72.960464 | 135480000 |
@@ -33,7 +33,6 @@ aapl_data.head()
 | 2020-01-07 | 74.959999 | 75.224998 | 74.370003 | 74.597504 | 72.484344 | 108872000 |
 | 2020-01-08 | 74.290001 | 76.110001 | 74.290001 | 75.797501 | 73.650345 | 132079200 |
 
-```
 
 ```py
 # Checking for missing values
