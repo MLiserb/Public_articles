@@ -202,13 +202,17 @@ print("Mean Absolute Error: ", mae)
 print("Root Mean Square Error: ", rmse)
 ```
 
+```
+# 3mo because of that YFInvalidPeriodError("%ticker%: Period '60d' is invalid, must be one of ['1d', '5d', '1mo', '3mo', '6mo', '1y', '2y', '5y', '10y', 'ytd', 'max']") 
+```
+
 ```py
 import yfinance as yf
 import numpy as np
 from sklearn.preprocessing import MinMaxScaler
 
 # Fetching the latest 60 days of AAPL stock data
-data = yf.download('AAPL', period='3mo', interval='1d')
+data = yf.download('AAPL', period='3mo', interval='1d') # 3mo after API error
 
 # Selecting the 'Close' price and converting to numpy array
 closing_prices = data['Close'].values
@@ -236,7 +240,7 @@ import numpy as np
 from sklearn.preprocessing import MinMaxScaler
 
 # Fetch the latest 60 days of AAPL stock data
-data = yf.download('AAPL', period='3mo', interval='1d')
+data = yf.download('AAPL', period='3mo', interval='1d') # 3mo After APi error
 
 # Select 'Close' price and scale it
 closing_prices = data['Close'].values.reshape(-1, 1)
@@ -307,7 +311,7 @@ import matplotlib.dates as mpl_dates
 import matplotlib.pyplot as plt
 
 # Fetch the latest 60 days of AAPL stock data
-data = yf.download('AAPL', period='3mo', interval='1d') # Fetch 64 days to display last 60 days in the chart
+data = yf.download('AAPL', period='3mo', interval='1d') # Fetch 3mo to display last 60 days in the chart
 
 # Select 'Close' price and scale it
 closing_prices = data['Close'].values.reshape(-1, 1)
@@ -353,7 +357,7 @@ import matplotlib.dates as mpl_dates
 import matplotlib.pyplot as plt
 
 # Fetch the latest 60 days of AAPL stock data
-data = yf.download('AAPL', period='3mo', interval='1d') # Fetch 64 days to display last 60 days in the chart
+data = yf.download('AAPL', period='3mo', interval='1d') # Fetch 3mo days to display last 60 days in the chart
 
 # Select 'Close' price and scale it
 closing_prices = data['Close'].values.reshape(-1, 1)
