@@ -33,3 +33,109 @@ aapl_data.isnull().sum()
 aapl_data.fillna(method='ffill', inplace=True)
 ```
 
+```py
+from sklearn.preprocessing import MinMaxScaler
+
+scaler = MinMaxScaler(feature_range=(0,1))
+aapl_data_scaled = scaler.fit_transform(aapl_data['Close'].values.reshape(-1,1))
+```
+
+```py
+X = []
+y = []
+
+for i in range(60, len(aapl_data_scaled)):
+    X.append(aapl_data_scaled[i-60:i, 0])
+    y.append(aapl_data_scaled[i, 0])
+```
+
+```py
+train_size = int(len(X) * 0.8)
+test_size = len(X) - train_size
+
+X_train, X_test = X[:train_size], X[train_size:]
+y_train, y_test = y[:train_size], y[train_size:]
+```
+
+```py
+X_train, y_train = np.array(X_train), np.array(y_train)
+X_train = np.reshape(X_train, (X_train.shape[0], X_train.shape[1], 1))
+```
+
+```py
+from keras.models import Sequential
+from keras.layers import LSTM, Dense, Dropout
+
+model = Sequential()
+
+# Adding LSTM layers
+model.add(LSTM(units=50, return_sequences=True, input_shape=(X_train.shape[1], 1)))
+model.add(LSTM(units=50, return_sequences=True))
+model.add(LSTM(units=50, return_sequences=False))  # Only the last time step
+
+# Adding a Dense layer to match the output shape with y_train
+model.add(Dense(1))
+
+# Compiling the model
+model.compile(optimizer='adam', loss='mean_squared_error')
+
+# Training the model
+history = model.fit(X_train, y_train, epochs=100, batch_size=25, validation_split=0.2)
+```
+
+```py
+from keras.models import Sequential
+from keras.layers import LSTM, Dense, Dropout, AdditiveAttention, Permute, Reshape, Multiply
+
+model = Sequential()
+
+# Adding LSTM layers with return_sequences=True
+model.add(LSTM(units=50, return_sequences=True, input_shape=(X_train.shape[1], 1)))
+model.add(LSTM(units=50, return_sequences=True))
+
+# Adding self-attention mechanism
+# The attention mechanism
+attention = AdditiveAttention(name='attention_weight')
+# Permute and reshape for compatibility
+model.add(Permute((2, 1)))
+model.add(Reshape((-1, X_train.shape[1])))
+attention_result = attention([model.output, model.output])
+multiply_layer = Multiply()([model.output, attention_result])
+# Return to original shape
+model.add(Permute((2, 1)))
+model.add(Reshape((-1, 50)))
+
+# Adding a Flatten layer before the final Dense layer
+model.add(tf.keras.layers.Flatten())
+
+# Final Dense layer
+model.add(Dense(1))
+
+# Compile the model
+model.compile(optimizer='adam', loss='mean_squared_error')
+
+# Train the model
+history = model.fit(X_train, y_train, epochs=100, batch_size=25, validation_split=0.2)
+```
+
+```py
+from keras.layers import BatchNormalization
+
+# Adding Dropout and Batch Normalization
+model.add(Dropout(0.2))
+model.add(BatchNormalization())
+```
+
+```py
+model.compile(optimizer='adam', loss='mean_squared_error')
+```
+
+```py
+# Assume 'data' is your preprocessed dataset
+train_size = int(len(aapl_data) * 0.8)
+train_data, test_data = aapl_data[:train_size], aapl_data[train_size:]
+```
+
+```py
+model.summary()
+```
