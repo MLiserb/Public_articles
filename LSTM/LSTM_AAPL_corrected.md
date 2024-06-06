@@ -166,9 +166,9 @@ Model: "sequential_2"
 | batch_normalization <br>(BatchNormalization) | (None, 1) | 4 |
                                                                  
 =================================================================
-Total params: 33605 (131.27 KB)
-Trainable params: 33603 (131.26 KB)
-Non-trainable params: 2 (8.00 Byte)
+<br>Total params: 33605 (131.27 KB)
+<br>Trainable params: 33603 (131.26 KB)
+<br>Non-trainable params: 2 (8.00 Byte)
 _________________________________________________________________
 
 ```py
