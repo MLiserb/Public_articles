@@ -1,7 +1,7 @@
 
 ```py
-!pip install tensorflow -qqq
-!pip install keras -qqq
+!pip install tensorflow -qqq # -qqq (quietest): Suppresses all output except for critical errors.
+!pip install keras -qqq 
 !pip install yfinance -qqq
 ```
 
