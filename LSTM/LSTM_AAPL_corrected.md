@@ -396,3 +396,62 @@ plt.legend()
 plt.show()
 ```
 
+![](https://github.com/MLiserb/Public_articles/assets/144083324/1b600012-888c-4ecd-84fb-d9d3a1b615a0)
+
+```py
+import yfinance as yf
+import numpy as np
+import pandas as pd
+from sklearn.preprocessing import MinMaxScaler
+from datetime import datetime, timedelta
+
+
+def predict_stock_price(input_date):
+    # Check if the input date is a valid date format
+    try:
+        input_date = pd.to_datetime(input_date)
+    except ValueError:
+        print("Invalid Date Format. Please enter date in YYYY-MM-DD format.")
+        return
+
+    # Fetch data from yfinance
+    end_date = input_date
+    start_date = input_date - timedelta(days=90)  # Fetch more days to ensure we have 60 trading days
+    data = yf.download('AAPL', start=start_date, end=end_date)
+
+    if len(data) < 60:
+        print("Not enough historical data to make a prediction. Try an earlier date.")
+        return
+
+    # Prepare the data
+    closing_prices = data['Close'].values[-60:]  # Last 60 days
+    scaler = MinMaxScaler(feature_range=(0, 1))
+    scaled_data = scaler.fit_transform(closing_prices.reshape(-1, 1))
+
+    # Make predictions
+    predicted_prices = []
+    current_batch = scaled_data.reshape(1, 60, 1)
+
+    for i in range(4):  # Predicting 4 days
+        next_prediction = model.predict(current_batch)
+        next_prediction_reshaped = next_prediction.reshape(1, 1, 1)
+        current_batch = np.append(current_batch[:, 1:, :], next_prediction_reshaped, axis=1)
+        predicted_prices.append(scaler.inverse_transform(next_prediction)[0, 0])
+
+    # Output the predictions
+    for i, price in enumerate(predicted_prices, 1):
+        print(f"Day {i} prediction: {price}")
+
+# Example use
+user_input = input("Enter a date (YYYY-MM-DD) to predict AAPL stock for the next 4 days: ")
+predict_stock_price(user_input)
+```
+
+```
+Enter a date (YYYY-MM-DD) to predict AAPL stock for the next 4 days: 2024-06-06
+
+Day 1 prediction: 192.01954650878906
+Day 2 prediction: 189.1455535888672
+Day 3 prediction: 186.57859802246094
+Day 4 prediction: 184.95684814453125
+```
