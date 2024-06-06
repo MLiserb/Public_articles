@@ -3,7 +3,7 @@
 !pip install keras -qqq
 !pip install yfinance -qqq
 ```
-
+```
 import tensorflow as tf
 import keras
 import yfinance as yf
@@ -13,3 +13,5 @@ import matplotlib.pyplot as plt
 
 # Check TensorFlow version
 print("TensorFlow Version: ", tf.__version__)
+```
+
