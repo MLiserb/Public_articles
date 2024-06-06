@@ -148,28 +148,8 @@ train_data, test_data = aapl_data[:train_size], aapl_data[train_size:]
 ```py
 model.summary()
 ```
-Model: "sequential_2"
+<img width="578" alt="" src="https://github.com/MLiserb/Public_articles/assets/144083324/ecd36215-80b4-4a9a-abe3-59fcd24a23ae">
 
-=================================================================
-
-| Layer (type) | Output Shape | Param # |
-|-|-|-|
-| lstm_3 (LSTM) | (None, 60, 50) | 10400 |
-| lstm_4 (LSTM) | (None, 60, 50) | 20200 |  
-| permute (Permute) | (None, 50, 60) | 0 |
-| reshape (Reshape) | (None, 50, 60) | 0 |
-| permute_1 (Permute) | (None, 60, 50) | 0 |
-| reshape_1 (Reshape) | (None, 60, 50) | 0 |
-| flatten (Flatten) | (None, 3000) | 0 |
-| dense_1 (Dense) | (None, 1) | 3001 |
-| dropout (Dropout) | (None, 1) | 0 |
-| batch_normalization <br>(BatchNormalization) | (None, 1) | 4 |
-                                                                 
-=================================================================
-<br>Total params: 33605 (131.27 KB)
-<br>Trainable params: 33603 (131.26 KB)
-<br>Non-trainable params: 2 (8.00 Byte)
-_________________________________________________________________
 
 ```py
 # Assuming X_train and y_train are already defined and preprocessed
