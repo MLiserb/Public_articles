@@ -174,3 +174,225 @@ callbacks_list = [early_stopping, model_checkpoint, reduce_lr, tensorboard, csv_
 history = model.fit(X_train, y_train, epochs=100, batch_size=25, validation_split=0.2, callbacks=callbacks_list)
 ```
 
+```py
+# Convert X_test and y_test to Numpy arrays if they are not already
+X_test = np.array(X_test)
+y_test = np.array(y_test)
+
+# Ensure X_test is reshaped similarly to how X_train was reshaped
+# This depends on how you preprocessed the training data
+X_test = np.reshape(X_test, (X_test.shape[0], X_test.shape[1], 1))
+
+# Now evaluate the model on the test data
+test_loss = model.evaluate(X_test, y_test)
+print("Test Loss: ", test_loss)
+```
+
+```py
+from sklearn.metrics import mean_absolute_error, mean_squared_error
+
+# Making predictions
+y_pred = model.predict(X_test)
+
+# Calculating MAE and RMSE
+mae = mean_absolute_error(y_test, y_pred)
+rmse = mean_squared_error(y_test, y_pred, squared=False)
+
+print("Mean Absolute Error: ", mae)
+print("Root Mean Square Error: ", rmse)
+```
+
+```py
+import yfinance as yf
+import numpy as np
+from sklearn.preprocessing import MinMaxScaler
+
+# Fetching the latest 60 days of AAPL stock data
+data = yf.download('AAPL', period='3mo', interval='1d')
+
+# Selecting the 'Close' price and converting to numpy array
+closing_prices = data['Close'].values
+
+# Scaling the data
+scaler = MinMaxScaler(feature_range=(0,1))
+scaled_data = scaler.fit_transform(closing_prices.reshape(-1,1))
+
+# Since we need the last 60 days to predict the next day, we reshape the data accordingly
+X_latest = np.array([scaled_data[-60:].reshape(60)])
+
+# Reshaping the data for the model (adding batch dimension)
+X_latest = np.reshape(X_latest, (X_latest.shape[0], X_latest.shape[1], 1))
+
+# Making predictions for the next 4 candles
+predicted_stock_price = model.predict(X_latest)
+predicted_stock_price = scaler.inverse_transform(predicted_stock_price)
+
+print("Predicted Stock Prices for the next 4 days: ", predicted_stock_price)
+```
+
+```py
+import yfinance as yf
+import numpy as np
+from sklearn.preprocessing import MinMaxScaler
+
+# Fetch the latest 60 days of AAPL stock data
+data = yf.download('AAPL', period='3mo', interval='1d')
+
+# Select 'Close' price and scale it
+closing_prices = data['Close'].values.reshape(-1, 1)
+scaler = MinMaxScaler(feature_range=(0, 1))
+scaled_data = scaler.fit_transform(closing_prices)
+
+# Predict the next 4 days iteratively
+predicted_prices = []
+current_batch = scaled_data[-60:].reshape(1, 60, 1)  # Most recent 60 days
+
+for i in range(4):  # Predicting 4 days
+    # Get the prediction (next day)
+    next_prediction = model.predict(current_batch)
+
+    # Reshape the prediction to fit the batch dimension
+    next_prediction_reshaped = next_prediction.reshape(1, 1, 1)
+
+    # Append the prediction to the batch used for predicting
+    current_batch = np.append(current_batch[:, 1:, :], next_prediction_reshaped, axis=1)
+
+    # Inverse transform the prediction to the original price scale
+    predicted_prices.append(scaler.inverse_transform(next_prediction)[0, 0])
+
+print("Predicted Stock Prices for the next 4 days: ", predicted_prices)
+```
+
+```py
+!pip install mplfinance -qqq
+```
+
+```py
+import pandas as pd
+import mplfinance as mpf
+import matplotlib.dates as mpl_dates
+import matplotlib.pyplot as plt
+
+# Assuming 'data' is your DataFrame with the fetched AAPL stock data
+# Make sure it contains Open, High, Low, Close, and Volume columns
+
+# Creating a list of dates for the predictions
+last_date = data.index[-1]
+next_day = last_date + pd.Timedelta(days=1)
+prediction_dates = pd.date_range(start=next_day, periods=4)
+
+# Assuming 'predicted_prices' is your list of predicted prices for the next 4 days
+predictions_df = pd.DataFrame(index=prediction_dates, data=predicted_prices, columns=['Close'])
+
+# Plotting the actual data with mplfinance
+mpf.plot(data, type='candle', style='charles', volume=True)
+
+# Overlaying the predicted data
+plt.figure(figsize=(10,6))
+plt.plot(predictions_df.index, predictions_df['Close'], linestyle='dashed', marker='o', color='red')
+
+plt.title("AAPL Stock Price with Predicted Next 4 Days")
+plt.show()
+```
+
+![](https://github.com/MLiserb/Public_articles/assets/144083324/a2a65e4e-654c-4262-bc48-3ecfc4824961)
+<br>
+<br>
+![](https://github.com/MLiserb/Public_articles/assets/144083324/6644a684-f6f5-49cb-bb15-13c937aa99d5)
+
+```py
+import pandas as pd
+import mplfinance as mpf
+import matplotlib.dates as mpl_dates
+import matplotlib.pyplot as plt
+
+# Fetch the latest 60 days of AAPL stock data
+data = yf.download('AAPL', period='3mo', interval='1d') # Fetch 64 days to display last 60 days in the chart
+
+# Select 'Close' price and scale it
+closing_prices = data['Close'].values.reshape(-1, 1)
+scaler = MinMaxScaler(feature_range=(0, 1))
+scaled_data = scaler.fit_transform(closing_prices)
+
+# Predict the next 4 days iteratively
+predicted_prices = []
+current_batch = scaled_data[-60:].reshape(1, 60, 1)  # Most recent 60 days
+
+for i in range(4):  # Predicting 4 days
+    next_prediction = model.predict(current_batch)
+    next_prediction_reshaped = next_prediction.reshape(1, 1, 1)
+    current_batch = np.append(current_batch[:, 1:, :], next_prediction_reshaped, axis=1)
+    predicted_prices.append(scaler.inverse_transform(next_prediction)[0, 0])
+
+# Creating a list of dates for the predictions
+last_date = data.index[-1]
+next_day = last_date + pd.Timedelta(days=1)
+prediction_dates = pd.date_range(start=next_day, periods=4)
+
+# Adding predictions to the DataFrame
+predicted_data = pd.DataFrame(index=prediction_dates, data=predicted_prices, columns=['Close'])
+
+# Combining both actual and predicted data
+combined_data = pd.concat([data['Close'], predicted_data['Close']])
+combined_data = combined_data[-64:] # Last 60 days of actual data + 4 days of predictions
+
+# Plotting the data
+plt.figure(figsize=(10,6))
+plt.plot(combined_data, linestyle='-', marker='o', color='blue')
+plt.title("AAPL Stock Price: Last 60 Days and Next 4 Days Predicted")
+plt.show()
+```
+
+![AAPL Stock Price Last 60 Days and Next 4 Days Predicted](https://github.com/MLiserb/Public_articles/assets/144083324/9e35bf81-3e2d-4489-becd-80fb2e8d313a)
+
+
+```py
+import pandas as pd
+import mplfinance as mpf
+import matplotlib.dates as mpl_dates
+import matplotlib.pyplot as plt
+
+# Fetch the latest 60 days of AAPL stock data
+data = yf.download('AAPL', period='3mo', interval='1d') # Fetch 64 days to display last 60 days in the chart
+
+# Select 'Close' price and scale it
+closing_prices = data['Close'].values.reshape(-1, 1)
+scaler = MinMaxScaler(feature_range=(0, 1))
+scaled_data = scaler.fit_transform(closing_prices)
+
+# Predict the next 4 days iteratively
+predicted_prices = []
+current_batch = scaled_data[-60:].reshape(1, 60, 1)  # Most recent 60 days
+
+for i in range(4):  # Predicting 4 days
+    next_prediction = model.predict(current_batch)
+    next_prediction_reshaped = next_prediction.reshape(1, 1, 1)
+    current_batch = np.append(current_batch[:, 1:, :], next_prediction_reshaped, axis=1)
+    predicted_prices.append(scaler.inverse_transform(next_prediction)[0, 0])
+
+# Creating a list of dates for the predictions
+last_date = data.index[-1]
+next_day = last_date + pd.Timedelta(days=1)
+prediction_dates = pd.date_range(start=next_day, periods=4)
+
+# Adding predictions to the DataFrame
+predicted_data = pd.DataFrame(index=prediction_dates, data=predicted_prices, columns=['Close'])
+
+# Combining both actual and predicted data
+combined_data = pd.concat([data['Close'], predicted_data['Close']])
+combined_data = combined_data[-64:] # Last 60 days of actual data + 4 days of predictions
+
+# Plotting the actual data
+plt.figure(figsize=(10,6))
+plt.plot(data.index[-60:], data['Close'][-60:], linestyle='-', marker='o', color='blue', label='Actual Data')
+
+# Plotting the predicted data
+plt.plot(prediction_dates, predicted_prices, linestyle='-', marker='o', color='red', label='Predicted Data')
+
+plt.title("AAPL Stock Price: Last 60 Days and Next 4 Days Predicted")
+plt.xlabel('Date')
+plt.ylabel('Price')
+plt.legend()
+plt.show()
+```
+
