@@ -139,3 +139,38 @@ train_data, test_data = aapl_data[:train_size], aapl_data[train_size:]
 ```py
 model.summary()
 ```
+
+```py
+# Assuming X_train and y_train are already defined and preprocessed
+history = model.fit(X_train, y_train, epochs=100, batch_size=25, validation_split=0.2)
+```
+
+```py
+from keras.callbacks import EarlyStopping
+
+early_stopping = EarlyStopping(monitor='val_loss', patience=10)
+history = model.fit(X_train, y_train, epochs=100, batch_size=25, validation_split=0.2, callbacks=[early_stopping])
+```
+
+```py
+from keras.callbacks import ModelCheckpoint, ReduceLROnPlateau, TensorBoard, CSVLogger
+
+# Callback to save the model periodically
+model_checkpoint = ModelCheckpoint('best_model.h5', save_best_only=True, monitor='val_loss')
+
+# Callback to reduce learning rate when a metric has stopped improving
+reduce_lr = ReduceLROnPlateau(monitor='val_loss', factor=0.1, patience=5)
+
+# Callback for TensorBoard
+tensorboard = TensorBoard(log_dir='./logs')
+
+# Callback to log details to a CSV file
+csv_logger = CSVLogger('training_log.csv')
+
+# Combining all callbacks
+callbacks_list = [early_stopping, model_checkpoint, reduce_lr, tensorboard, csv_logger]
+
+# Fit the model with the callbacks
+history = model.fit(X_train, y_train, epochs=100, batch_size=25, validation_split=0.2, callbacks=callbacks_list)
+```
+
