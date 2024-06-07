@@ -146,3 +146,6 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+
+![Predicted vs Actual Stock Prices-100epoch+FILTER](https://github.com/MLiserb/Public_articles/assets/144083324/690e5bcc-f0cf-4fd1-a043-9fe1bb630855)
+
