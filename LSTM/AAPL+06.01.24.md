@@ -1,3 +1,5 @@
+[Github](https://github.com/yllvar/Stock-Prediction-LTSM/blob/main/stock_prediction_lstm.ipynb)
+
 ```py
 !pip install tensorflow -qqq
 !pip install keras -qqq
