@@ -19,7 +19,6 @@
     -  Kevin Lee, COO, TWCC  ​
 
 ### |  14:20 - 14:35    Security Keynote - Paul Li, Co-Founder, BitsLab & ScaleBit
-    
 ### |  14:35 - 15:25    Digital Trust and DevSecOps Environment in Web3 Era | Mandarin
 
 -  Moderator: TY, Co-Founder, Metatrust
