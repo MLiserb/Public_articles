@@ -1,5 +1,4 @@
-# Day 1  
-Aug 6 13:30-17:30  Infrastructure & Security ft. BTCFi 
+# Day 1 Aug 6 13:30-17:30  Infrastructure & Security ft. BTCFi 
 
 ### |  13:30 - 13:40   Opening
 
