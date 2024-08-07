@@ -37,34 +37,30 @@ Aug 6 13:30-17:30  Infrastructure & Security ft. BTCFi 
            
 ### |  15:25 - 16:15   Your First Web3 Entrance and Future Bank | Mandarin
 
-- ###### Moderator: Tiffany Su, Business Developement Manager, Circle
+-  Moderator: Tiffany Su, Business Developement Manager, Circle
     
-- ###### Panelists:
+-  Panelists:
     
-    - ###### Nicholas Lin, Senior Researcher, imToken
+    -  Nicholas Lin, Senior Researcher, imToken
         
-    - ###### Jag Foo, Partner, Safeheron
+    -  Jag Foo, Partner, Safeheron
         
-    - ###### Kordan Ou, Founder & CEO, KryptoGo
-        
+    -  Kordan Ou, Founder & CEO, KryptoGo
 
-###### ​  
-|  16:15 - 16:30   AgentLayer- Autonomous AI agent Network for Web3
+### |  16:15 - 16:30   AgentLayer- Autonomous AI agent Network for Web3
 
-- ###### TY, Core-Contributor, Agentlayer
-    
+-  TY, Core-Contributor, Agentlayer
+ ​  
+### |  16:30 - 17:20   A Complete Guide to BTCFi
 
-###### ​  
-|  16:30 - 17:20   A Complete Guide to BTCFi
-
-- ###### Moderator: Nissa Li, Marketing Lead, ScaleBit & BitsLab
+-  Moderator: Nissa Li, Marketing Lead, ScaleBit & BitsLab
     
-- ###### Panelists:
+-  Panelists:
     
-    - ###### Sunny Teng, Ecosystem Manager, Merlin Chain
+    -  Sunny Teng, Ecosystem Manager, Merlin Chain
         
-    - ###### Annie Lee,  Head of BD, APRO Oracle
+    -  Annie Lee,  Head of BD, APRO Oracle
         
-    - ###### Adam Bendjemil, Head of Ecosystem, Core
+    -  Adam Bendjemil, Head of Ecosystem, Core
         
-    - ###### Kyle Ellicott, IR lead, Stacks
+    -  Kyle Ellicott, IR lead, Stacks
