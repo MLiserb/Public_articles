@@ -1,47 +1,41 @@
-### Day 1  
+# Day 1  
 Aug 6 13:30-17:30  Infrastructure & Security ft. BTCFi 
 
-###### |  13:30 - 13:40   Opening
+### |  13:30 - 13:40   Opening
 
-- ###### Nicole Chan, Honorary Chairperson, TABEI
+-  Nicole Chan, Honorary Chairperson, TABEI
     
-- ###### Ching-Chin Lin, Division Chief, Platform Economy Division, Administration for Digital Industries, MODA
+-  Ching-Chin Lin, Division Chief, Platform Economy Division, Administration for Digital Industries, MODA
 
-###### |  13:40 - 14:20   Trusted Blockchain Service Infrastructure (TBSI) | Mandarin
+### |  13:40 - 14:20   Trusted Blockchain Service Infrastructure (TBSI) | Mandarin
 
-- ###### Moderator: Yichin Lee, Supervisor, Blockchain Data Governance, Digital Transformation Institute, III
+-  Moderator: Yichin Lee, Supervisor, Blockchain Data Governance, Digital Transformation Institute, III
     
-- ###### Panelists:
+-  Panelists:
     
-    - ###### James Huang, CEO, BaaSid
+    -  James Huang, CEO, BaaSid
         
-    - ###### Eric Chou, CEO, SnowBridge
+    -  Eric Chou, CEO, SnowBridge
         
-    - ###### Kevin Lee, COO, TWCC
-        
+    -  Kevin Lee, COO, TWCC  ​
 
-###### ​
+### |  14:20 - 14:35    Security Keynote - Paul Li, Co-Founder, BitsLab & ScaleBit
+    
+### |  14:35 - 15:25    Digital Trust and DevSecOps Environment in Web3 Era | Mandarin
 
-###### |  14:20 - 14:35    Security Keynote - Paul Li, Co-Founder, BitsLab & ScaleBit
-
-######    
-|  14:35 - 15:25    Digital Trust and DevSecOps Environment in Web3 Era | Mandarin
-
-- ###### Moderator: TY, Co-Founder, Metatrust
+-  Moderator: TY, Co-Founder, Metatrust
     
-- ###### Panelists:
+-  Panelists:
     
-    - ###### Dr. Chia-chih Wu, Head of Web 3 Security, Amber Group
+    -  Dr. Chia-chih Wu, Head of Web 3 Security, Amber Group
         
-    - ###### Alice Hsu, Whitehat & Operator, DefiHackLab
+    -  Alice Hsu, Whitehat & Operator, DefiHackLab
         
-    - ###### Alice Lin, Convenor, Preparatory Office of Digital Trust Association in Taiwan
+    -  Alice Lin, Convenor, Preparatory Office of Digital Trust Association in Taiwan
         
-    - ###### Blue Yang, Partner & CTO, SlowMist; Director of G3 Lab, Tsinghua University
-        
-
-######   
-|  15:25 - 16:15   Your First Web3 Entrance and Future Bank | Mandarin
+    -  Blue Yang, Partner & CTO, SlowMist; Director of G3 Lab, Tsinghua University
+           
+### |  15:25 - 16:15   Your First Web3 Entrance and Future Bank | Mandarin
 
 - ###### Moderator: Tiffany Su, Business Developement Manager, Circle
     
