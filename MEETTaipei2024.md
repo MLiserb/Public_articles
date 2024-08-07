@@ -94,7 +94,8 @@
         
     -  Edward Tan, Senior Investor, Hashed 
 
-### | 13:30-17:30 DeFi 4.0
+## |  13:30-17:30 DeFi 4.0
+
 ### |  13:30 - 13:40   DeFi ecosystem Partners Say Hi  
 ### |  13:40 - 14:30   Leveraging Options & Derivatives in DeFi & CEX
 
@@ -135,82 +136,72 @@
     
 -  ​Eric, Head of Quant Research, Term Structure
 
-### Day 3  
-Aug 8 10:00-12:00 Blockchain Innovation Ecosystem Buidl
+# Day 3 Aug 8 10:00-12:00 Blockchain Innovation Ecosystem Buidl
 
-###### |  10:00- 10:05   TABEI says Hi, overviewing what’s to come  
+### |  10:00- 10:05   TABEI says Hi, overviewing what’s to come  
   
 |  10:05- 11:05   HK Web 3 Ecosystem Overview: Kickstart in Hong Kong | Mandarin
 
-- ###### Moderator: Nicholas Yang, Director, TABEI
+-  Moderator: Nicholas Yang, Director, TABEI
     
 - Panelists:
-    - ###### James, Web3 Team, Cyberport
+    -  James, Web3 Team, Cyberport
         
-    - ###### Peter Zhou, Co-founder, Ephod Technology
+    -  Peter Zhou, Co-founder, Ephod Technology
         
-    - ###### Calvin, APAC Head of BD, Hashkey Global
-        
+    -  Calvin, APAC Head of BD, Hashkey Global
+   
+### |  11:10- 12:00   Taiwan Ecosystem Goes Singapore, Japan, Southeast Asia & Global | Mandarin
 
-######   
-|  11:10- 12:00   Taiwan Ecosystem Goes Singapore, Japan, Southeast Asia & Global | Mandarin
-
-- ###### Moderator: Eason Hu, Contributor, BuZhiDAO
+-  Moderator: Eason Hu, Contributor, BuZhiDAO
     
 - Panelists:
-    - ###### Ching Tseng, Principal, AppWorks
+    -  Ching Tseng, Principal, AppWorks
         
-    - ###### Jeff Wen, Deputy Convenor, Member Relations Group, NEAT (New Economy Association, Taiwan)
+    -  Jeff Wen, Deputy Convenor, Member Relations Group, NEAT (New Economy Association, Taiwan)
         
-    - ###### Alrick Oh, Director, Berru
-        
-
-### 13:30-17:30 Cont’ & Creator Economy
-
-###### |  13:30-13:35   Recaping Morning & Overview  
-  
-|  13:35- 14:25  New Funding Ecosystem
-
-- ###### Jonathan Tanemori, Web3 VC Advisor | Mentor for 500 & Alchemist Accelerator
-    
-- ###### Tawei Chang, CoFounder, gotEM
-    
-- ###### Czhang Lin, IC board member, LBank Labs
-    
-- ###### Noah Yeh, Founder & CEO, lostutopias
-    
-
-######   
-| 14:25- 15:25  Running Crypto Trading on AWS with Low Latency and High Performance | Mandarin
-
-- ###### Paul Lu, Solutions Architect, AWS
-    
-
-######   
-|  15:25- 16:15  Liquidity - Navigating Liquidity Across CEX and DEX
-
-- ###### Moderator: Alan Wu, Co-Founder & CTO, Crypto Arsenal
-    
-- ###### Panelists:
-    
-    - ###### Ray Peh, VP & BD, Kronos Research
-        
-    - ###### Kaede Tai, CTO, Quantrend
-        
-    - ###### Paul Kremsky, Global Head of BD, Cumberland DRW
+    -  Alrick Oh, Director, Berru
         
 
-###### |  16:15- 17:05  The go-to-market (GTM) strategy for Web3 with AI
+## |  13:30-17:30 Cont’ & Creator Economy
 
-- ###### Moderator: Taka Kao, Chairperson, TABEI
+### |  13:30-13:35   Recaping Morning & Overview    
+### |  13:35- 14:25  New Funding Ecosystem
+
+-  Jonathan Tanemori, Web3 VC Advisor | Mentor for 500 & Alchemist Accelerator
     
-- ###### Panelists:
+-  Tawei Chang, CoFounder, gotEM
     
-    - ###### Jeff Chang, Community Lead, RSS3
+-  Czhang Lin, IC board member, LBank Labs
+    
+-  Noah Yeh, Founder & CEO, lostutopias
+       
+### |  14:25- 15:25  Running Crypto Trading on AWS with Low Latency and High Performance | Mandarin
+
+-  Paul Lu, Solutions Architect, AWS
+       
+### |  15:25- 16:15  Liquidity - Navigating Liquidity Across CEX and DEX
+
+-  Moderator: Alan Wu, Co-Founder & CTO, Crypto Arsenal
+    
+-  Panelists:
+    
+    -  Ray Peh, VP & BD, Kronos Research
         
-    - ###### Angus Channce, Head of Marketing, OurSong
+    -  Kaede Tai, CTO, Quantrend
         
-    - ###### Carol Chung, Co-Founder&CMO, XO ​
+    -  Paul Kremsky, Global Head of BD, Cumberland DRW
+        
+### |  16:15- 17:05  The go-to-market (GTM) strategy for Web3 with AI
+
+-  Moderator: Taka Kao, Chairperson, TABEI
+    
+-  Panelists:
+    
+    -  Jeff Chang, Community Lead, RSS3
+        
+    -  Angus Channce, Head of Marketing, OurSong
+        
+    -  Carol Chung, Co-Founder&CMO, XO ​
 
 ### |  17:05-17:30   Networking & Closing
-
