@@ -62,3 +62,77 @@
     -  Adam Bendjemil, Head of Ecosystem, Core
         
     -  Kyle Ellicott, IR lead, Stacks
+
+# Day 2 Aug 7 10:00-12:00 The Future of L1 ft. Monad 
+
+### |  10:00 - 10:05   TABEI says Hi, overviewing what’s to come  
+### |  10:05 - 10:20  Begin with Monad - SungMo, APAC Lead, Monad
+### |  10:25 - 11:15   Future with Monad Ecosystem: Buidlers Assemble
+
+-  Moderator: SungMo, APAC Lead, Monad
+    
+-  Panelists:​
+    
+    -  Sasha, CEO, Laniakea
+        
+    -  Charlotte, Founding Members, Zomma Protocol
+        
+    -  Lucien Lee, Co-Founder, Dyson Finance
+        
+
+### | 11:15 - 12:00   Future with Ventures: Empowering 0-1
+
+-  Moderator: Jing, Ecosystem, Monad
+    
+-  Panelists:
+    
+    -  Andrea Chang, Partner, Oak Grove Ventures
+        
+    -  Audrey Yang, Founder and Managing Partner, Radiance Ventures
+        
+    -  Ann Chien, Partner, IVC
+        
+    -  Edward Tan, Senior Investor, Hashed 
+
+### | 13:30-17:30 DeFi 4.0
+### |  13:30 - 13:40   DeFi ecosystem Partners Say Hi  
+### |  13:40 - 14:30   Leveraging Options & Derivatives in DeFi & CEX
+
+-  Moderator: Charlotte J, Head of BD, Zomma Protocol
+    
+-  Panelists:​
+    
+    -  Ping Chen, Founder&CEO, Dyson Finance
+        
+    -  Samuel Lee, Head of APAC Business Development, Cega
+        
+    -  Lin Chen, APAC Business Development, Deribit
+            
+### |  14:30 - 15:15   Workshop:  Scaling ETH home staking rewards with Lido CSM
+
+-  Samuel Chong, Community Lifeguard, Lido
+     ​  
+### |  15:15 - 16:15   DeFi Derivatives - Driving Force for Perp DEX, Options & Fixed Income Derivatives
+
+-  Moderator: Ed, Contributor, Pyth Data Association
+    
+- Panelists:
+    -  Yenwen Feng, Co-Founder, Perp/Nekodex
+        
+    -  Jerry Li, Founder & CEO, Term Structure
+        
+    -  Janson Wang,  Head of Trading, Cega
+        
+    -  Jane Liu, Asia Institutional Growth Lead, Ethena Labs      
+
+### |  16:15 - 16:30   Workshops on Account Abstraction (AA) : Paymaster Alliance by Holdstation DeFutures
+
+-  Trung Banh, Co-Founders & Chief Product Officer, Holdstation
+       
+### |  16:30 - 17:30   Workshops: Options, Perp, Fixed Income trading
+
+-  Morgan Wang, Head of Research, Zomma Protocol 
+    
+-  ​Eric, Head of Quant Research, Term Structure
+
+
