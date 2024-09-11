@@ -1,26 +1,26 @@
 # Associate Data Scientist in Python
 
-Introduction to Python
-Intermediate Python
-Investigating Netflix Movies (Bonus)
-Data Manipulation with pandas
-Exploring NYC Public School Test Result Scores (Bonus)
-Joining Data with pandas
-Introduction to Statistics in Python
-Introduction to Data Visualization with Matplotlib
-Introduction to Data Visualization with Seaborn
-Visualizing the History of Nobel Prize Winners (Bonus)
-Introduction to Functions in Python
-Python Toolbox
-Data Manipulation with Python (Skill Assessment)
-Exploratory Data Analysis in Python
-Analyzing Crime in Los Angeles (Bonus)
-Working with Categorical Data in Python
-Customer Analytics: Preparing Data for Modeling (Bonus)
-Data Communication Concepts
-Introduction to Importing Data in Python
-Cleaning Data in Python
-Exploring Airbnb Market Trends (Bonus)
+#### Introduction to Python
+#### Intermediate Python
+#### Investigating Netflix Movies (Bonus)
+#### Data Manipulation with pandas
+#### Exploring NYC Public School Test Result Scores (Bonus)
+#### Joining Data with pandas
+#### Introduction to Statistics in Python
+#### Introduction to Data Visualization with Matplotlib
+#### Introduction to Data Visualization with Seaborn
+#### Visualizing the History of Nobel Prize Winners (Bonus)
+#### Introduction to Functions in Python
+#### Python Toolbox
+#### Data Manipulation with Python (Skill Assessment)
+#### Exploratory Data Analysis in Python
+#### Analyzing Crime in Los Angeles (Bonus)
+#### Working with Categorical Data in Python
+#### Customer Analytics: Preparing Data for Modeling (Bonus)
+#### Data Communication Concepts
+#### Introduction to Importing Data in Python
+#### Cleaning Data in Python
+#### Exploring Airbnb Market Trends (Bonus)
 Working with Dates and Times in Python
 Importing & Cleaning Data with Python (Skill Assessment)
 Writing Functions in Python
@@ -29,9 +29,9 @@ Introduction to Regression with statsmodels in Python
 Modeling Car Insurance Claim Outcomes (Bonus)
 Sampling in Python 
 Sampling in Python Hypothesis Testing in Python
-Experimental Design in Python
-Hypothesis Testing with Men's and Women's Soccer Matches (Bonus)
-Supervised Learning with scikit-learn
+#### Experimental Design in Python
+#### Hypothesis Testing with Men's and Women's Soccer Matches (Bonus)
+#### Supervised Learning with scikit-learn
 Predictive Modeling for Agriculture (Bonus)
 Unsupervised Learning in Python
 Clustering Antarctic Penguin Species (Bonus)
