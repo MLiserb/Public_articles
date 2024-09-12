@@ -1,16 +1,16 @@
 # Associate Python Developer
 
-Introduction to Python for Developers
-Intermediate Python for Developers
-Creating Functions to Register App Users (Bonus)
-Python Toolbox
-Data Types in Python
-Working with Dates and Times in Python
-Interstellar Delivery: Mastering Datetime in Python (Bonus)
-Writing Functions in Python
-Regular Expressions in Python
-Introduction to Object-Oriented Programming in Python
-Introduction to Shell
+#### Introduction to Python for Developers
+#### Intermediate Python for Developers
+#### Creating Functions to Register App Users (Bonus)
+#### Python Toolbox
+#### Data Types in Python
+#### Working with Dates and Times in Python
+#### Interstellar Delivery: Mastering Datetime in Python (Bonus)
+#### Writing Functions in Python
+#### Regular Expressions in Python
+#### Introduction to Object-Oriented Programming in Python
+#### Introduction to Shell
 
 
 | Title                                                 | Content                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | Completed |
