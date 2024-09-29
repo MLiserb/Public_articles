@@ -2,7 +2,7 @@
 
 
 ---
-flipsidecrypto.xyz:
+### flipsidecrypto.xyz:
 
 ```sql
 SELECT *
@@ -50,3 +50,13 @@ I notice the `PROVIDER` is `coingecko`... API is very expensive...
 ### Conclusion
 
 Overall, this dataset offers valuable insights into the Neutron blockchain's token ecosystem, providing essential information for developers, investors, and analysts interested in blockchain assets.
+
+```SQL
+SELECT DISTINCT LABEL
+FROM cosmos.core.dim_labels
+WHERE LABEL LIKE 'Neutron';
+```
+
+| | LABEL |
+| --- | --- |
+| 1 | Neutron |
