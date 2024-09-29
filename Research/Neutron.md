@@ -4,6 +4,9 @@
 ---
 ### flipsidecrypto.xyz:
 
+Assistance for database inquiries: https://flipsidecrypto.github.io/cosmos-models/#!/overview
+---
+
 TABLE `crosschain.price.dim_asset_metadata`:
 
 A comprehensive dimensional table holding asset metadata and other relevant details pertaining to each id, from multiple providers. This data set includes raw, non-transformed data coming directly from the provider APIs and rows are not intended to be unique. As a result, there may be data quality issues persisting in the APIs that flow through to this dimensional model. If you are interested in using a curated data set instead, please utilize ez_asset_metadata.
