@@ -113,3 +113,15 @@ FROM crosschain.cosmos.fact_transactions;
 | 2 | cosmos |
 | 3 | axelar |
 
+---
+
+```SQL
+SELECT *
+FROM cosmos.core.dim_labels
+WHERE LABEL = 'Neutron';
+```
+
+| BLOCKCHAIN | CREATOR | ADDRESS                                    | LABEL_TYPE | LABEL_SUBTYPE | LABEL   | PROJECT_NAME | DIM_LABELS_ID                          | INSERTED_TIMESTAMP               | MODIFIED_TIMESTAMP               |
+|------------|---------|--------------------------------------------|------------|---------------|---------|--------------|----------------------------------------|-----------------------------------|-----------------------------------|
+| cosmos     | flipside| ntrn                                       | token      | token_contract | Neutron | NTRN         | 85b8184df3177bc7c3bbfc021f3cc02b     | 2024-09-27 09:50:49.341          | 2024-09-27 09:50:49.341          |
+| cosmos     | flipside| ibc/126DA09104B71B164883842B769C0E9EC1486C0887D27A9999E395C2C8FB5682 | token      | token_contract | Neutron | NTRN         | a4ac995708482992805e96f05669c399     | 2024-09-27 09:50:49.341          | 2024-09-27 09:50:49.341          |
