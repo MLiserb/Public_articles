@@ -5,6 +5,7 @@
 ### flipsidecrypto.xyz:
 
 Assistance for database inquiries: https://flipsidecrypto.github.io/cosmos-models/#!/overview
+
 ---
 
 TABLE `crosschain.price.dim_asset_metadata`:
