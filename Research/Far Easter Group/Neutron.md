@@ -4,6 +4,12 @@
 ---
 ### flipsidecrypto.xyz:
 
+TABLE `crosschain.price.dim_asset_metadata`:
+
+A comprehensive dimensional table holding asset metadata and other relevant details pertaining to each id, from multiple providers. This data set includes raw, non-transformed data coming directly from the provider APIs and rows are not intended to be unique. As a result, there may be data quality issues persisting in the APIs that flow through to this dimensional model. If you are interested in using a curated data set instead, please utilize ez_asset_metadata.
+
+
+
 ```sql
 SELECT *
 FROM crosschain.price.dim_asset_metadata
@@ -21,7 +27,7 @@ WHERE BLOCKCHAIN = 'neutron';
 | ibc/6C9E6701AC217C0FC7D74B0F7A6265B9B4E3C3CDA6E80AADE5F950A8F52F9972      | nolus                 | nls    | Nolus              | neutron    | neutron        | coingecko  | 2024-09-28 14:41:34.745     | 2024-09-28 14:41:34.745     | f9aa63af77c9e4dc71cbda4292b37fcd        |
 | neutron154gg0wtm2v4h9ur8xg32ep64e8ef0g5twlsgvfeajqwghdryvyqsqhgk8e        | apollo-2             | apollo | Apollo             | neutron    | neutron        | coingecko  | 2024-09-28 14:41:34.745     | 2024-09-28 14:41:34.745     | 2dbb5170414156219e19997ef492ac1a        |
 
-I notice the `PROVIDER` is `coingecko`... API is very expensive... 
+I notice the `PROVIDER` is `coingecko`. (API is very expensive) 
 
 ### Key Attributes
 
