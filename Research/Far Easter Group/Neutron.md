@@ -51,6 +51,7 @@ I notice the `PROVIDER` is `coingecko`... API is very expensive...
 
 Overall, this dataset offers valuable insights into the Neutron blockchain's token ecosystem, providing essential information for developers, investors, and analysts interested in blockchain assets.
 
+---
 ```SQL
 SELECT DISTINCT LABEL
 FROM cosmos.core.dim_labels
@@ -60,3 +61,39 @@ WHERE LABEL LIKE 'Neutron';
 | | LABEL |
 | --- | --- |
 | 1 | Neutron |
+
+---
+
+TABLE `crosschain.cosmos.fact_transactions`:
+
+| Column Name              | Data Type     |
+|--------------------------|----------------|
+| BLOCK_ID                 | TEXT           |
+| BLOCK_TIMESTAMP          | TIMESTAMP_NTZ  |
+| TX_ID                    | TEXT           |
+| TX_FROM                  | TEXT           |
+| CODESPACE                | VARIANT        |
+| FEE                      | TEXT           |
+| FEE_DENOM                | TEXT           |
+| GAS_USED                 | NUMBER         |
+| GAS_WANTED               | NUMBER         |
+| TX_CODE                  | NUMBER         |
+| TX_LOG                   | TEXT           |
+| MSGS                     | VARIANT        |
+| TX_SUCCEEDED             | BOOLEAN        |
+| INSERTED_TIMESTAMP       | TIMESTAMP_NTZ  |
+| MODIFIED_TIMESTAMP       | TIMESTAMP_NTZ  |
+| FACT_TRANSACTIONS_ID     | TEXT           |
+
+```SQL
+SELECT DISTINCT BLOCKCHAIN
+FROM crosschain.cosmos.fact_transactions;
+```
+
+| | BLOCKCHAIN |
+| --- | --- |
+| 1 | osmosis |
+| 2 | cosmos |
+| 3 | axelar |
+
+
