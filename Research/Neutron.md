@@ -114,6 +114,20 @@ FROM crosschain.cosmos.fact_transactions;
 | 3 | axelar |
 
 ---
+TABLE `cosmos.core.dim_labels`:
+
+| Field Name            | Data Type      |
+|-----------------------|----------------|
+| BLOCKCHAIN            | TEXT           |
+| CREATOR               | TEXT           |
+| ADDRESS               | TEXT           |
+| LABEL_TYPE            | TEXT           |
+| LABEL_SUBTYPE         | TEXT           |
+| LABEL                 | TEXT           |
+| PROJECT_NAME          | TEXT           |
+| DIM_LABELS_ID         | TEXT           |
+| INSERTED_TIMESTAMP    | TIMESTAMP_NTZ  |
+| MODIFIED_TIMESTAMP    | TIMESTAMP_NTZ  |
 
 ```SQL
 SELECT *
